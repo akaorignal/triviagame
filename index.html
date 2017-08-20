@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Totally Trivial Trivia</title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<!-- links here-->
+<!--Add Jquery plugin -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+		<!-- Adding Mobile First Components  No Zoom in mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/javascript/app.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- background -->
+<div class ="container"> 
+
+			<div class="title">
+		<h1>TOTAL TRIVIAL TRIVIA</h1></div>
+
+			<div id="timer"> 	
+				<div id="t"> </div>
+	
+			<form id="quiz" name="quiz" onsubmit= "return submitAnswers()">
+
+			<h3>
+			Who is the queen of rap?<br></h3>
+ 		 	<input type="radio" name="q1" value="a" id=q1a> Nicki Minaj<br>
+  			<input type="radio" name="q1" value="b" id=q1b> Lil Uzi Vert<br>
+			<input type="radio" name="q1" value="b" id=q1b> Khia<br>  			
+			  			
+  			<hr>
+  			<h3>
+  			Who was the best member in Destinys child?<br></h3>
+  			<input type="radio" name="q2" value="a" id=q2a>Beyonce<br>
+  			<input type="radio" name="q2" value="b" id=q2b> Sasha Fierce<br>
+  			<input type="radio" name="q2" value="c" id=q2c> Both A & B<br>
+  			
+  			<HR><h3>
+  				Ca$h money records have been taking over since ...<br></h3>
+  			<input type="radio" name="q3" value="a" id=q2a> the 99s and the 00s<br>
+  			<input type="radio" name="q3" value="b" id=q2b>Pizza rolls were invented<br>
+  			<input type="radio" name="q3" value="c" id=q2c>People stopped buying pack hair<br>
+
+  			<input id="button" type="submit" value="Submit Answers">
+  			
+</form>
+
+
+				</div>
+
+
+
+<div id="questions">
+
+</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
