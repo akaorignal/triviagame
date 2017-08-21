@@ -53,9 +53,10 @@ function submitAnswers(){
 	 alert( "you got" + " " + score + " " + "out of" + " " + total + " " + "correct.");
 
 	 
-	 window.onload = function () {
+	 window.onload = function () { }
 
-
+// tells the user about the amount of time left 
+/*
 setTimeout(fiveSeconds, 1000 * 5);
 setTimeout(tenSeconds, 1000 * 10);
 setTimeout(timeUp, 1000 * 15);
@@ -80,7 +81,14 @@ function timeUp() {
  // $("#countdown").append("<h2>Time's Up!</h2>");
   console.log("time is up");
 
-}
+} */
+
+function results (){
+
+	if (score === 3)
+		alert("you got it!");
+	else
+		alert("gjj")
 }
 
 }//end
