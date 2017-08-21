@@ -5,6 +5,9 @@ window.onload = function () {
 //countdown of the game
 setTimeout(countdown, 1000 * 20);
 setTimeout(countdown2, 1000 * 10);
+setTimeout(results, 1000 * 5);
+
+
 
 
 function countdown(){
@@ -14,13 +17,18 @@ function countdown(){
   $("#countdown2").append("Almost over..");
   console.log("10 seconds left");}
 
+function timeUp() {
+  /* th*/
+  console.log("done");
+  $("#results").append("<div>Time's Up!</div>");
+  console.log("time is up");}
 
 
 }
 
 
 //questions
-//Is Nicki Minaj Better Than Remy Ma?
+//Is Nicki Minaj 
 
 function submitAnswers(){
 
@@ -34,7 +42,7 @@ function submitAnswers(){
 
 	//test alert(q1);
 
-	// checks to make sure you answer the form subission	
+	// checks to make sure you answer the form 	
 	for (i = 1; i< total ; i++){
 		if(eval('q' + i) === null || eval('q' + i) === "" ) {
 		alert("You missed a question");
@@ -75,7 +83,7 @@ function results (){
 }
 
 
-}//end
+}//end bracket
 
 
 
